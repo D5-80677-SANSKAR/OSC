@@ -1,0 +1,271 @@
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ man date
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ uname
+Linux
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ pwd
+/home/sakshi/Sunbeam/osc/CLI/linux_c
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ hostname
+sakshi-Lenovo-ideapad-320-15ISK
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ date
+Monday 27 November 2023 05:33:45 PM IST
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cal
+   November 2023      
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 
+
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cal -y
+                            2023
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4            1  2  3  4  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   5  6  7  8  9 10 11  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  12 13 14 15 16 17 18  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  19 20 21 22 23 24 25  
+29 30 31              26 27 28              26 27 28 29 30 31     
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1      1  2  3  4  5  6               1  2  3  
+ 2  3  4  5  6  7  8   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  28 29 30 31           25 26 27 28 29 30     
+30                                                                
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5                  1  2  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   3  4  5  6  7  8  9  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  10 11 12 13 14 15 16  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  17 18 19 20 21 22 23  
+23 24 25 26 27 28 29  27 28 29 30 31        24 25 26 27 28 29 30  
+30 31                                                             
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4                  1  2  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  17 18 19 20 21 22 23  
+29 30 31              26 27 28 29 30        24 25 26 27 28 29 30  
+                                            31                    
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ ls 
+demo
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ dir
+demo
+
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cat> dac.txt
+PG-DAC
+Sunbeam Pune
+Hinjewadi
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cat dac.txt
+PG-DAC
+Sunbeam Pune
+Hinjewadi
+
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cat> dac.txt
+PG-DAC
+Sunbeam Pune
+Hinjewadi
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cat dac.txt
+PG-DAC
+Sunbeam Pune
+Hinjewadi
+
+
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cat>>dbda.txt
+File info dbda
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cp dac.txt dbda.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cat dac.txt
+PG-DAC
+Sunbeam Pune
+Hinjewadi
+File Dac
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cat dbda.txt
+PG-DAC
+Sunbeam Pune
+Hinjewadi
+File Dac
+
+
+
+11)sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ mv dac.txt dbda.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ ls
+dbda.txt  demo
+
+12)sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ mv dbda.txt demo
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ ls
+demo
+
+13)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cat>>num.txt
+1
+4
+5
+7
+9
+10
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ tac num.txt
+10
+9
+7
+5
+4
+1
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ rev num.txt
+1
+4
+5
+7
+9
+01
+
+14)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cat>>dac.txt
+Dac-240
+Sunbeam Pune
+Oprating system 
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ wc dac.txt
+ 3  5 37 dac.txt
+ 
+ //num of line   byte count    number of characters
+ 
+ 15)
+ sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ mkdir demo1
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ ls
+dac.txt  demo  demo1  num.txt
+
+16)sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ pwd
+/home/sakshi/Sunbeam/osc/CLI/linux_c
+
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cd demo
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ pwd
+/home/sakshi/Sunbeam/osc/CLI/linux_c/demo
+
+17)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ rm dbda.txt
+
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ rm -R demo1
+
+18)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ rmdir demo1
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ ls
+dbda.txt  demo
+
+19)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ stat one.txt
+  File: one.txt
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 807h/2055d	Inode: 8793859     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/  sakshi)   Gid: ( 1000/  sakshi)
+Access: 2023-11-27 18:38:46.606367175 +0530
+Modify: 2023-11-27 18:38:46.606367175 +0530
+Change: 2023-11-27 18:38:46.606367175 +0530
+ Birth: 2023-11-27 18:38:46.606367175 +0530
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ touch one.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ stat one.txt
+  File: one.txt
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 807h/2055d	Inode: 8793859     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/  sakshi)   Gid: ( 1000/  sakshi)
+Access: 2023-11-27 18:40:55.267511056 +0530
+Modify: 2023-11-27 18:40:55.267511056 +0530
+Change: 2023-11-27 18:40:55.267511056 +0530
+ Birth: 2023-11-27 18:38:46.606367175 +0530
+ 
+ 20)
+ sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ cat>> num.txt
+1
+4
+6
+8
+10
+15
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ sort num.txt
+1
+10
+15
+4
+6
+8
+
+21)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ cat>> unique.txt
+aaaa
+aaaa
+bbbb
+gggg
+gggg
+gggg
+ffff
+fff
+fffff
+fffff
+fffff
+fffff
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ uniq unique.txt
+aaaa
+bbbb
+gggg
+ffff
+fff
+fffff
+
+22)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ head -n 2 dbda.txt
+name 
+dac-Sunbeam
+
+23)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ tail -n 2 dbda.txt   //gives number of lines
+dac-Sunbeam
+Pune Hinjewadi
+
+24)sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ factor 25
+25: 5 5
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ factor 12
+
+
+25)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ alias d="date"
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ d
+Monday 27 November 2023 07:01:05 PM IST
+
+26)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ unalias d
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ d
+d: command not found
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ date
+Monday 27 November 2023 07:03:00 PM IST
+
+27)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ echo "Name: Sunbeam"
+Name: Sunbeam
+//echo command is to display a text or string on the terminal
+
+28)//Shows the processes for the current shell
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ ps 
+    PID TTY          TIME CMD
+   4927 pts/0    00:00:00 bash
+   9296 pts/0    00:00:00 ps
+
+
+30)
+
+
+
+
+31)
+Shows the processes for the current shell
+//print out a list of all environment variables.
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+1)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ ls -t
+unique.txt  num.txt  one.txt  three.txt  two.txt  dac.txt  dbda.txt
+
+
+2) sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ man ls
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ ls -S
+unique.txt  dbda.txt  dac.txt  num.txt	one.txt  three.txt  two.txt
+
+
+3)sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ ls -i
+8793853 dac.txt   8793862 num.txt  8793861 three.txt  8793863 unique.txt
+8793858 dbda.txt  8793859 one.txt  8793860 two.txt
+
+4)sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI$ ls -R 
+.:
+linux_c
+
+./linux_c:
+dac.txt  demo  demo1  num.txt
+
+./linux_c/demo:
+dac.txt  dbda.txt  num.txt  one.txt  three.txt	two.txt  unique.txt
+
+./linux_c/demo1:
+
+
+5)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ cat> name.txt
+Kaple
+Sakshi
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ cat>> name.txt
+Hanuman Town 
+Dhamangaon Rly
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ cat name.txt
+Kaple
+Sakshi
+Hanuman Town 
+Dhamangaon Rly
+
+6)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ stat name.txt
+  File: name.txt
+  Size: 42        	Blocks: 8          IO Block: 4096   regular file
+Device: 807h/2055d	Inode: 8792837     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/  sakshi)   Gid: ( 1000/  sakshi)
+Access: 2023-11-28 17:53:19.878118079 +0530
+Modify: 2023-11-28 17:53:08.245909799 +0530
+Change: 2023-11-28 17:53:08.245909799 +0530
+ Birth: 2023-11-28 17:49:20.189993947 +0530
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ touch name.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ stat name.txt
+  File: name.txt
+  Size: 42        	Blocks: 8          IO Block: 4096   regular file
+Device: 807h/2055d	Inode: 8792837     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/  sakshi)   Gid: ( 1000/  sakshi)
+Access: 2023-11-28 17:55:35.800599951 +0530
+Modify: 2023-11-28 17:55:35.800599951 +0530
+Change: 2023-11-28 17:55:35.800599951 +0530
+ Birth: 2023-11-28 17:49:20.189993947 +0530
+
+
+7)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ mkdir one
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo$ cd one
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one$ touch 1.txt 11.txt 111.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one$ mkdir two
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one$ cd two
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two$ touch 2.txt 22.txt 222.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two$ mkdir three
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two$ cd three
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three$ touch 3.txt 33.txt 333.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three$ mkdir four
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three$ cd four
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four$ touch 4.txt 44.txt 444.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four$ mkdir five
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four$ cd five
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four/five$ cd ~
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~$ ls
+
+
+ii)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four/five$ cd ..
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four$ ls
+444.txt  44.txt  4.txt	five
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four$ cat>> 44.txt
+Sakshi
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four$ cd five
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four/five$ rm 555.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four/five$ ls
+55.txt	5.txt
+
+iv)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ cd demo/one/two/three/four/five
+
+
+vi)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four/five$ ls ../../../
+222.txt  22.txt  2.txt	three
+
+
+vii)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four/five$ rm ../../../222.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four/five$ ls ../../../
+22.txt	2.txt  three
+
+viii)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three/four/five$ cd ../../../../
+
+ix)
+
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one$ rm ./two/three/four/five/*
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one$ ls two/three/four/five
+
+x)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one$ rmdir ./two/three/four/five
+
+xi)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one$ rm -R ./two/three/four
+
+
+xii)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one$ cd ~
+
+9)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three$ touch -t 202207181212.20 3.txt
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c/demo/one/two/three$ stat 3.txt
+  File: 3.txt
+  Size: 7         	Blocks: 8          IO Block: 4096   regular file
+Device: 807h/2055d	Inode: 8793897     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/  sakshi)   Gid: ( 1000/  sakshi)
+Access: 2022-07-18 12:12:20.000000000 +0530
+Modify: 2022-07-18 12:12:20.000000000 +0530
+Change: 2023-11-28 19:58:31.739018913 +0530
+ Birth: 2023-11-28 18:40:50.854931063 +0530
+
+
+
+
+

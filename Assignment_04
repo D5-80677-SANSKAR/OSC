@@ -1,0 +1,120 @@
+1)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~$ vim Que1.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~$ bash Que1.sh
+Login Name:
+Home: 
+Que1.sh: line 4: /home/sakshi: Is a directory
+
+
+2)
+echo "1. Date"
+echo "2. Cal"
+echo "3. Ls"
+echo "4. Pwd"
+echo "5. Exit"
+echo -n "Enter your choice: "
+read choice
+
+case $choice in
+	1) date
+		;;
+	2) cal
+		;;
+	3) ls
+		;;
+	4) pwd
+		;;
+	5) exit
+		;;
+
+	esac	
+	
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que2.sh
+1. Date
+2. Cal
+3. Ls
+4. Pwd
+5. Exit
+Enter your choice: 3
+Que2.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que2.sh
+1. Date
+2. Cal
+3. Ls
+4. Pwd
+5. Exit
+Enter your choice: 4
+/home/sakshi/Sunbeam/osc/CLI/Assig05
+
+
+3)
+<pre>sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ vim Que3.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que3.sh
+Enter Name: 
+Que2.sh
+-rw-rw-r-- 1 sakshi sakshi 205 Nov 29 18:29 Que2.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ vim Que3.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que3.sh
+Enter Name: 
+demo
+
+
+
+5)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que5.sh
+Enter 3 numbers: 
+30 56 71
+71 is greater
+
+
+7)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ vim Que7.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que7.sh
+Enter a number: 
+30
+30 is positive
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que7.sh
+Enter a number: 
+-23
+-23 is negative
+
+
+8)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ vim Que8.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que8.sh
+Enter a number: 5
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+
+
+9)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ vim Que9.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que9.sh
+Enter a num: 5
+120
+
+10)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ vim Que10.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que10.sh
+Enter a number: 7
+0
+1
+1
+2
+3
+5
+8
+
+11)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ vim Que11.sh
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/Assig05$ bash Que11.sh
+Enter a basic Salary: 665000
+Gross salary : 1064000.0

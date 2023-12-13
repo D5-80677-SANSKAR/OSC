@@ -1,0 +1,19 @@
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI$ ls
+Assig05  linux_c
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI$ cd linux_c
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ ls
+dac.txt  demo  demo1  num.txt
+
+
+
+12)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ whoami
+sakshi
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ who am i
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ tty
+/dev/pts/0
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ who
+sakshi   tty2         2023-12-01 13:59 (tty2)
+sanskar@sanskar-ROG-Zephyrus-M15-GU502LU-GU502LU:~/Sunbeam/osc/CLI/linux_c$ users
+sakshi
+
